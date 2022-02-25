@@ -1,11 +1,17 @@
 # Byte-compiled / optimized / DLL files
+*.pt
 __pycache__/
 *.py[cod]
 *$py.class
-
+.vscode/
+build/
+install/
+log/
+*.png
+*.txt
 # C extensions
 *.so
-
+*.log
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+src/datasets/train/img12.png
